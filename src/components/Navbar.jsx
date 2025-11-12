@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import farmer from '../assets/farmer_cardamom.jpg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ export default function Navbar() {
         <Link to="/" className="flex items-center gap-3 px-12">
           {/* Replace IT with your actual logo image */}
           <img
-            src="/src/assets/cardmon_log.png"  // 👈 place your logo image path here
+            src={farmer} // 👈 place your logo image path here
             alt="IMPcp Logo"
             className="w-12 h-12 rounded-full object-cover"
           />
