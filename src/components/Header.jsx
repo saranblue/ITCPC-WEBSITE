@@ -1,5 +1,5 @@
 import React from "react";
-
+import bgimg  from "../assets/beautiful-natural-landscape.jpg";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
                    flex items-center justify-start 
                    h-[300px] sm:h-[400px] md:h-[500px] lg:h-[565px]"
         style={{
-          backgroundImage: "url('/src/assets/beautiful-natural-landscape.jpg')",
+           backgroundImage: `url(${bgimg})`,
         }}
       >
         {/* Overlay for better text visibility */}

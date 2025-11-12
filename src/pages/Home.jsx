@@ -16,7 +16,7 @@ export default function Home (){
     <WhoWeAre/>
     <FeatureProduct/>
     <OurProcess/>
-    {/* <WhyChooseUs/> */}
+    <WhyChooseUs/>
     <Footer/>
     </div>
   )
