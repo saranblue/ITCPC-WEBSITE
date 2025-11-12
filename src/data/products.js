@@ -1,8 +1,7 @@
 
-import org from '../assets/cardmom_organic.png'
+import org from '../assets/caradom_organic.png'
 import deluxe from '../assets/caradom_deluxe.jpg'
 import premium from '../assets/cardamom_premium.jpg'
-
 
 
 export const products = [
