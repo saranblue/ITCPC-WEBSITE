@@ -1,11 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import ig from "../assets/farmer_cardamom.jpg"
+import { Link } from "react-scroll";
+
 
 export default function WhoWeAre() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-blue from-white to-green-50 py-20 px-6 md:px-12 lg:px-20">
+    <section id="about" className="relative overflow-hidden bg-gradient-to-blue from-white to-green-50 py-20 px-6 md:px-12 lg:px-20">
         {/* Subheading */}
           <h1 className="text-black text-5xl  font-semibold uppercase tracking-widest mb-15 text-center">
              Who We Are
@@ -22,7 +23,7 @@ export default function WhoWeAre() {
           
         >
           <img
-            src={ig} // 🔁 replace with your actual image path
+            src={ig} 
             alt="Farmers in Idukki"
             className="w-full h-[450px] object-cover"
           />
@@ -62,7 +63,7 @@ export default function WhoWeAre() {
           <div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}>
             <Link
               to="/about"
-              className="inline-block px-8 py-3 bg-green-700 text-white font-semibold rounded-full shadow-lg hover:bg-green-800 transition-all duration-300"
+              className="inline-block px-8 py-3 bg-green-700 text-white font-semibold rounded  shadow-lg hover:bg-green-800 transition-all duration-300"
             >
               Discover More
             </Link>

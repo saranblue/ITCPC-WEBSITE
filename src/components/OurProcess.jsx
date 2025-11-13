@@ -35,6 +35,8 @@
 
 import React from "react";
 import spice from "../assets/cardmon_log.png"
+import { Link } from "react-scroll";
+
 
 export default function OurProcess() {
   return (
@@ -53,10 +55,10 @@ export default function OurProcess() {
   </div>
 
   {/* Process Steps */}
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mt-10">
     {/* Step 1 */}
     <div className="bg-gray-50  p-6 text-center hover:shadow-lg  transition-shadow">
-      <div className="text-white ms-26 text-center font-bold text-lg mb-2  bg-green-800 rounded-full w-7">01</div>
+      <div className="text-white ms-26 text-center font-bold text-lg mb-2  bg-green-800  w-7">01</div>
       <h4 className="font-semibold text-gray-800 mb-2">Farmer Registration</h4>
       <p className="text-gray-600 text-sm">
         Verified onboarding of local producers.
@@ -66,7 +68,7 @@ export default function OurProcess() {
     {/* Step 2 */}
     <div className="bg-gray-50 p-6 text-center hover:shadow-lg transition-shadow">
       <div className="text-white ms-26 font-bold text-lg mb-2 bg-green-800 rounded-full w-7">02</div>
-      <h4 className="font-semibold text-gray-800 mb-2">Quality Assessment</h4>
+      <h4 className="font-semibold text-gray-800 mb-2">Quantaty Assessment</h4>
       <p className="text-gray-600 text-sm">
         Cardamom is graded for auction.
       </p>

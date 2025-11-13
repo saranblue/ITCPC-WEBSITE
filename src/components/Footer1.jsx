@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from "react-scroll";
+
 
 export default function Footer(){
   return (
     <div>
-<footer className="bg-green-900 text-gray-200 py-12 px-6 sm:px-10 lg:px-20">
+<footer id="contact" className="bg-green-900 text-gray-200 py-12 px-6 sm:px-10 lg:px-20">
   <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
     
     {/* Company */}

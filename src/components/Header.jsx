@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       {/* Header Section with Background Image */}
-      <section
+      <section id="home"
         className="relative w-full bg-green-100 bg-cover bg-center 
                    flex items-center justify-start 
                    h-[300px] sm:h-[400px] md:h-[500px] lg:h-[565px]"
@@ -33,7 +33,7 @@ export default function Home() {
             <Link
               to="/products"
               className="px-3 py-2 border-2 bg-lime-500 border-green-700 
-                         text-white rounded-full hover:bg-transparent
+                         text-white rounded hover:bg-transparent
                          transition-all duration-300 text-center w-full sm:w-auto"
             >
               Explore Products
@@ -42,7 +42,7 @@ export default function Home() {
             <Link
               to="/farmers"
               className="px-5 py-2 border-2 border-green-700 text-white 
-                         rounded-full bg-cyan-600 hover:bg-transparent
+                         rounded bg-cyan-600 hover:bg-transparent
                          transition-all duration-300 text-center w-full sm:w-auto"
             >
               Join as Member
