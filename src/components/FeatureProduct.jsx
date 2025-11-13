@@ -31,27 +31,6 @@ export default function FeatureProduct() {
     },
   ];
 
-  // ProductCard component inside same file
-  const ProductCard = ({ product }) => (
-    <div className="rounded-lg p-4 shadow-md hover:shadow-lg transition">
-      <img
-        src={product.image}
-        alt={product.name}
-        className="w-full h-40 object-cover rounded"
-      />
-      <h3 className="mt-3 font-semibold text-lg">{product.name}</h3>
-      <p className="text-sm text-gray-600">{product.summary}</p>
-      <div className="mt-3 flex items-center justify-between">
-        <div className="text-sm text-gray-800">
-          Grades: {product.grades.join(", ")}
-        </div>
-        <button className="px-3 py-1 bg-green-700 text-white rounded text-sm hover:bg-green-800">
-          Enquire
-        </button>
-      </div>
-    </div>
-  );
-
   return (
     <div>
       {/* Featured Products Section */}
@@ -61,12 +40,30 @@ export default function FeatureProduct() {
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mt-6">
-          {products.map((p) => (
-            <ProductCard key={p.id} product={p} />
+          {products.map((p, idx) => (
+            <div
+              key={idx}
+              className="rounded-lg p-4 shadow-md hover:shadow-lg transition"
+            >
+              <img
+                src={p.image}
+                alt={p.name}
+                className="w-full h-40 object-cover rounded"
+              />
+              <h3 className="mt-3 font-semibold text-lg">{p.name}</h3>
+              <p className="text-sm text-gray-600">{p.summary}</p>
+              <div className="mt-3 flex items-center justify-between">
+                <div className="text-sm text-gray-800">
+                  Grades: {p.grades.join(", ")}
+                </div>
+                <button className="px-3 py-1 bg-green-700 text-white rounded text-sm hover:bg-green-800">
+                  Enquire
+                </button>
+              </div>
+            </div>
           ))}
         </div>
       </section>
     </div>
   );
 }
-
