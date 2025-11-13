@@ -1,4 +1,4 @@
-import cardamomPremium from "../assets/cardamom_Premium.jpg";
+import cardamomPremium from "../assets/cardamom_premium.jpg";
 import cardamomDeluxe from "../assets/caradom_deluxe.jpg";
 import cardamomOrganic from "../assets/caradom_organic.png";
 
