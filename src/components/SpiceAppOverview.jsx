@@ -24,10 +24,10 @@ const SpiceAppOverview = forwardRef((props, ref) => {
   return (
     <section id="auctions"
       ref={ref}
-      className="py-16 bg-[#F7FBEA] w-full"
+      className="py-16 bg-gray-50 w-full"
       style={{ scrollMarginTop: "80px" }} // offset for navbar
     >
-      <div className="mx-auto px-4 sm:px-15 md:px-16 lg:px-20 xl:px-32">
+      <div className="mx-auto px-4 sm:px-15 md:px-16 lg:px-20 xl:px-32 ">
         {/* Section Header */}
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-700 mb-3">
@@ -43,9 +43,9 @@ const SpiceAppOverview = forwardRef((props, ref) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Text and Buttons */}
           <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            // initial={{ opacity: 0, y: 50 }}
+            // whileInView={{ opacity: 1, y: 0 }}
+            // transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <p className="text-gray-700 text-lg pt-5 md:text-xl leading-relaxed mb-6">
              The Spice Auction Smart Management System is a secure digital
@@ -61,8 +61,8 @@ const SpiceAppOverview = forwardRef((props, ref) => {
               {/* iOS */}
               <motion.button
                 onClick={handleIosClick}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
+                // whileHover={{ scale: 1.05 }}
+                // whileTap={{ scale: 0.95 }}
                 className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-xl font-semibold shadow-md hover:bg-gray-800 transition-colors"
               >
                 <FaApple className="text-2xl" />
