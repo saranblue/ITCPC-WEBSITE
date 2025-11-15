@@ -12,7 +12,7 @@ export default function Footer(){
     <div>
       <h3 className="text-white font-semibold text-lg mb-3">Company</h3>
       <p className="text-gray-200 text-sm leading-relaxed">
-        ITCPC - Idukki District Traditional Producer Company Ltd.<br />
+        IMCPC - Idukki District Traditional Producer Company Ltd.<br />
         Empowering traditional spice growers through fair trade and innovation.
       </p>
     </div>
@@ -23,8 +23,8 @@ export default function Footer(){
       <ul className="space-y-2 text-sm">
         <li><a href="/" className="hover:text-white">Home</a></li>
         <li><a href="/about" className="hover:text-white">About</a></li>
-        <li><a href="/auctions" className="hover:text-white">Auctions</a></li>
         <li><a href="/Products" className="hover:text-white">Products</a></li>
+        <li><a href="/auctions" className="hover:text-white">Auctions</a></li>
         <li><a href="/contact" className="hover:text-white">Contact</a></li>
       </ul>
     </div>
@@ -61,7 +61,7 @@ export default function Footer(){
 
   {/* Bottom bar */}
   <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-200">
-    © 2025 ITCPC - Idukki District Traditional Producer Company Ltd.  
+    © 2025 IMCPC - Idukki District Traditional Producer Company Ltd.  
     <br className="sm:hidden" />
     <span className="block sm:inline"> Empowering Farmers • Enhancing Transparency • Enabling Growth</span>
   </div>

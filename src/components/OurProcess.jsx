@@ -70,11 +70,11 @@
 
 export default function OurProcess() {
   return (
-    <section className="bg-gray-50 py-16 px-6 sm:px-10 lg:px-20">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+    <section className="bg-lime-50 py-16 px-6 sm:px-10 lg:px-20 h-230">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
         {/* LEFT TEXT */}
-        <div className="text-left lg:sticky lg:top-20">
+        <div className="text-left lg:sticky lg:top-60">
           <h3 className="text-green-600 uppercase tracking-wide font-semibold text-sm">
             Our Process
           </h3>
@@ -95,7 +95,7 @@ export default function OurProcess() {
 
           {/* CARD 1 — UP from sm devices */}
           <div className="sm:-translate-y-6">
-            <div className="group bg-linear-to-t from-lime-200 to-transparent p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
+            <div className="group bg-linear-to-t from-lime-200  via-lime-100to-lime-50 p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
               <div className="text-white font-bold text-lg bg-lime-600 w-8 h-8 flex justify-center items-center rounded-full">
                 01
               </div>
@@ -106,7 +106,7 @@ export default function OurProcess() {
 
           {/* CARD 2 — DOWN from sm devices */}
           <div className="sm:translate-y-14">
-            <div className="group bg-linear-to-t from-lime-200 to-transparent p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
+            <div className="group bg-linear-to-t from-lime-200  via-lime-100 to-lime-50 p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
               <div className="text-white font-bold text-lg bg-lime-600 w-8 h-8 flex justify-center items-center rounded-full">
                 02
               </div>
@@ -117,7 +117,7 @@ export default function OurProcess() {
 
           {/* CARD 3 — UP from sm devices */}
           <div className="sm:-translate-y-2">
-            <div className="group bg-linear-to-t from-lime-200 to-transparent p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
+            <div className="group bg-linear-to-t from-lime-200  via-lime-100to-lime-50 p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
               <div className="text-white font-bold text-lg bg-lime-600 w-8 h-8 flex justify-center items-center rounded-full">
                 03
               </div>
@@ -130,7 +130,7 @@ export default function OurProcess() {
 
           {/* CARD 4 — DOWN from sm devices */}
           <div className="sm:translate-y-23">
-            <div className="group bg-linear-to-t from-lime-200 to-transparent p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
+            <div className="group bg-linear-to-t from-lime-200  via-lime-100to-lime-50 p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
               <div className="text-white font-bold text-lg bg-lime-600 w-8 h-8 flex justify-center items-center rounded-full">
                 04
               </div>
