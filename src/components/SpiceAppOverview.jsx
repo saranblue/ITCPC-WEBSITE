@@ -84,9 +84,9 @@ const SpiceAppOverview = forwardRef((props, ref) => {
 
           {/* Right Image */}
           <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
+            // initial={{ opacity: 0, y: 50 }}
+            // whileInView={{ opacity: 1, y: 0 }}
+            // transition={{ duration: 0.5, ease: "easeOut" }}
             className="flex justify-center pt-5"
           >
             <img

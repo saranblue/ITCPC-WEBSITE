@@ -95,8 +95,8 @@ export default function OurProcess() {
 
           {/* CARD 1 — UP from sm devices */}
           <div className="sm:-translate-y-6">
-            <div className="group bg-lime-300 p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
-              <div className="text-white font-bold text-lg bg-green-800 w-8 h-8 flex justify-center items-center rounded-full">
+            <div className="group bg-linear-to-t from-lime-200 to-transparent p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
+              <div className="text-white font-bold text-lg bg-lime-600 w-8 h-8 flex justify-center items-center rounded-full">
                 01
               </div>
               <h4 className="text-black font-semibold my-2">Farmer Registration</h4>
@@ -105,9 +105,9 @@ export default function OurProcess() {
           </div>
 
           {/* CARD 2 — DOWN from sm devices */}
-          <div className="sm:translate-y-6">
-            <div className="group bg-cyan-300 p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
-              <div className="text-white font-bold text-lg bg-green-800 w-8 h-8 flex justify-center items-center rounded-full">
+          <div className="sm:translate-y-14">
+            <div className="group bg-linear-to-t from-lime-200 to-transparent p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
+              <div className="text-white font-bold text-lg bg-lime-600 w-8 h-8 flex justify-center items-center rounded-full">
                 02
               </div>
               <h4 className="text-black font-semibold my-2">Quantity Assessment</h4>
@@ -116,9 +116,9 @@ export default function OurProcess() {
           </div>
 
           {/* CARD 3 — UP from sm devices */}
-          <div className="sm:-translate-y-6">
-            <div className="group bg-green-600 p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
-              <div className="text-white font-bold text-lg bg-green-800 w-8 h-8 flex justify-center items-center rounded-full">
+          <div className="sm:-translate-y-2">
+            <div className="group bg-linear-to-t from-lime-200 to-transparent p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
+              <div className="text-white font-bold text-lg bg-lime-600 w-8 h-8 flex justify-center items-center rounded-full">
                 03
               </div>
               <h4 className="text-black font-semibold my-2">Digital Auction</h4>
@@ -129,9 +129,9 @@ export default function OurProcess() {
           </div>
 
           {/* CARD 4 — DOWN from sm devices */}
-          <div className="sm:translate-y-6">
-            <div className="group bg-blue-700 p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
-              <div className="text-white font-bold text-lg bg-green-800 w-8 h-8 flex justify-center items-center rounded-full">
+          <div className="sm:translate-y-23">
+            <div className="group bg-linear-to-t from-lime-200 to-transparent p-6 h-72 rounded-2xl flex flex-col justify-center hover:shadow-lg transition-all">
+              <div className="text-white font-bold text-lg bg-lime-600 w-8 h-8 flex justify-center items-center rounded-full">
                 04
               </div>
               <h4 className="text-black font-semibold my-2">Transparent Settlement</h4>
