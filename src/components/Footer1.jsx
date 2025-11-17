@@ -5,13 +5,13 @@ import { Link } from "react-scroll";
 export default function Footer(){
   return (
     <div>
-<footer id="contact" className="bg-lime-500 text-black py-12 px-6 sm:px-10 lg:px-20">
+<footer id="contact" className="bg-[#3d5513] text-white py-12 px-6 sm:px-10 lg:px-20">
   <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
     
     {/* Company */}
     <div>
-      <h3 className="text-black font-semibold text-lg mb-3">Company</h3>
-      <p className="text-black text-sm leading-relaxed">
+      <h3 className="text-white font-semibold text-lg mb-3">Company</h3>
+      <p className="text-white text-sm leading-relaxed">
         IMCPC - Idukki District Traditional Producer Company Ltd.<br />
         Empowering traditional spice growers through fair trade and innovation.
       </p>
@@ -19,7 +19,7 @@ export default function Footer(){
 
     {/* Links */}
     <div>
-      <h3 className="text-black font-semibold text-lg mb-3">Links</h3>
+      <h3 className="text-white font-semibold text-lg mb-3">Links</h3>
       <ul className="space-y-2 text-sm">
         <li><a href="/" className="hover:text-white">Home</a></li>
         <li><a href="#about" className="hover:text-white">About</a></li>
@@ -31,7 +31,7 @@ export default function Footer(){
 
     {/* Our Products */}
     <div>
-      <h3 className="text-black font-semibold text-lg mb-3">Our Products</h3>
+      <h3 className="text-white font-semibold text-lg mb-3">Our Products</h3>
       <ul className="space-y-2 text-sm">
         <li className="hover:text-white">Cardamom</li>
 
@@ -40,7 +40,7 @@ export default function Footer(){
 
     {/* Community Impact */}
     <div>
-      <h3 className="text-black font-semibold text-lg mb-3">Community Impact</h3>
+      <h3 className="text-white font-semibold text-lg mb-3">Community Impact</h3>
       <ul className="space-y-2 text-sm">
         <li className="hover:text-white">Sustainability</li>
         <li  className="hover:text-white">Farmer Empowerment</li>
@@ -49,18 +49,18 @@ export default function Footer(){
 
     {/* Contact */}
     <div>
-      <h2 className="text-black font-semibold text-lg mb-3">Contact</h2>
-      <ul className="space-y-2 text-sm text-black">
-        <li>Email: <a href="mailto:info@imcpc.com" className="text-black hover:text-white">info@imcpc.com</a></li>
-        <li>Phone: <span className="text-black">+91 98765 43210</span></li>
-        <li>Location: <span className="text-black">Idukki, Kerala, India</span></li>
+      <h2 className="text-white font-semibold text-lg mb-3">Contact</h2>
+      <ul className="space-y-2 text-sm text-white">
+        <li>Email: <a href="mailto:info@imcpc.com" className="text-white hover:text-white">info@imcpc.com</a></li>
+        <li>Phone: <span className="text-white">+91 98765 43210</span></li>
+        <li>Location: <span className="text-white">Idukki, Kerala, India</span></li>
       </ul>
     </div>
 
   </div>
 
   {/* Bottom bar */}
-  <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-black">
+  <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-white">
     © 2025 IMCPC - Idukki District Traditional Producer Company Ltd.  
     <br className="sm:hidden" />
     <span className="block sm:inline"> Empowering Farmers • Enhancing Transparency • Enabling Growth</span>
