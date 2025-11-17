@@ -31,7 +31,7 @@ export default function Home() {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center px-3 sm:items-start gap-3 sm:gap-5 mt-5">
             <Link
-              to="/products"
+              to=""
               className="px-3 py-2 border-2 bg-lime-500 border-green-700 
                          text-white rounded hover:bg-transparent
                          transition-all duration-300 text-center w-full sm:w-auto"
@@ -40,7 +40,7 @@ export default function Home() {
             </Link>
 
             <Link
-              to="/farmers"
+              to=""
               className="px-5 py-2 border-2 border-green-700 text-white 
                          rounded bg-cyan-600 hover:bg-transparent
                          transition-all duration-300 text-center w-full sm:w-auto"
