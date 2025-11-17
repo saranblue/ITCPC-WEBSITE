@@ -46,7 +46,7 @@ const SpiceAppOverview = forwardRef((props, ref) => {
             <p className="text-black text-lg pt-15 md:text-xl leading-relaxed mb-6 ">
              The Spice Auction Smart Management System is a secure digital
               platform designed for the Idukki Traditional Cardamom Producers’ 
-              Consortium (ITCPC) to modernize the spice auction process. It
+              Consortium (IMCPC) to modernize the spice auction process. It
               automates CSV-based data uploads, ensures secure user access, and
               enables planters and administrators to manage auction data
               efficiently with OTP-based mobile authentication.

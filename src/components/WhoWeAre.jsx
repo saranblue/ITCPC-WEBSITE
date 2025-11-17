@@ -49,13 +49,13 @@ export default function WhoWeAre() {
 
           {/* Paragraph */}
           <p className="text-black text-sm leading-relaxed mb-10 pt-7">
-            ITCPC (Idukki District Traditional Producer Company Ltd)
+            IMCPC (Idukki District Traditional Producer Company Ltd)
             is a farmer-owned producer company dedicated to strengthening the
             traditional cardamom farming and trading ecosystem in Idukki.
             We bridge the gap between growers, traders, and buyers through
             transparent digital platforms that ensure fair value and sustainable
             trade practices.
-            Rooted deeply in the community,ITCPC stands as a
+            Rooted deeply in the community,IMCPC stands as a
             symbol of integrity, innovation, and empowerment in the spice trade.
           </p>
 
