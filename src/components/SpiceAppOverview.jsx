@@ -23,31 +23,27 @@ const SpiceAppOverview = forwardRef((props, ref) => {
 
   return (
     <section id="auctions"
-      ref={ref}
       className="py-16 bg-gray-50 w-full"
-      style={{ scrollMarginTop: "80px" }} // offset for navbar
     >
-      <div className="mx-auto px-4 sm:px-15 md:px-16 lg:px-20 xl:px-32 ">
+      <div className="mx-auto px-4 sm:px-15 md:px-16 lg:px-20 xl:px-22 ">
         {/* Section Header */}
         <div className="text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-700 mb-3">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-3">
             Smart Spice Auction App
           </h2>
-          <p className="text-gray-700 text-lg md:text-xl max-w-3xl mx-auto">
+          <p className="text-black text-lg md:text-xl max-w-3xl mx-auto">
             Empowering farmers and traders through a secure, transparent, and
             digital cardamom auction ecosystem.
           </p>
         </div>
 
         {/* Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
           {/* Left Text and Buttons */}
           <motion.div
-            // initial={{ opacity: 0, y: 50 }}
-            // whileInView={{ opacity: 1, y: 0 }}
-            // transition={{ duration: 0.8, ease: "easeOut" }}
+
           >
-            <p className="text-gray-700 text-lg pt-5 md:text-xl leading-relaxed mb-6">
+            <p className="text-black text-lg pt-15 md:text-xl leading-relaxed mb-6 ">
              The Spice Auction Smart Management System is a secure digital
               platform designed for the Idukki Traditional Cardamom Producers’ 
               Consortium (ITCPC) to modernize the spice auction process. It
@@ -74,7 +70,7 @@ const SpiceAppOverview = forwardRef((props, ref) => {
                 onClick={handleAndroidClick}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex items-center gap-2 bg-green-700 text-white px-6 py-3 rounded-xl font-semibold shadow-md hover:bg-[#3d5513] transition-colors"
+                className="flex items-center gap-2 bg-lime-600 text-white px-6 py-3 rounded-xl font-semibold shadow-md hover:bg-[#3d5513] transition-colors"
               >
                 <FaAndroid className="text-2xl" />
                 <span>Download on Android</span>
@@ -84,9 +80,7 @@ const SpiceAppOverview = forwardRef((props, ref) => {
 
           {/* Right Image */}
           <motion.div
-            // initial={{ opacity: 0, y: 50 }}
-            // whileInView={{ opacity: 1, y: 0 }}
-            // transition={{ duration: 0.5, ease: "easeOut" }}
+
             className="flex justify-center pt-5"
           >
             <img

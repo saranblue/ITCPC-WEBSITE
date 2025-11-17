@@ -3,22 +3,30 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react"; // icons
 import log from "../assets/cardmon_log.png";
-import { Link as ScrollLink } from "react-scroll";
+import { Link } from "react-router-dom";
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
 
   // ✅ Section names for scrolling
-  const navItems = ["Home", "About", "Products", "Auctions", "Contact"];
+const navItems = [
+  { label: "Home", link: "#home" },
+  { label: "About", link: "#about" },
+  { label: "Products", link: "#products" },
+  { label: "Auctions", link: "#auctions" },
+  { label: "Contact", link: "#contact" }
+];
+
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50 w-full">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+      <div className="px-4 sm:px-6 lg:px-20">
         <div className="flex items-center justify-between h-16">
           {/* 🔰 Logo Section */}
-          <ScrollLink
-            to="home"
+          <a 
+            href="#home"
             smooth={true}
             duration={200}
             offset={-5}
@@ -33,25 +41,25 @@ export default function Navbar() {
               <h1 className="text-lg sm:text-xl font-semibold text-gray-900">
                 IMCPC
               </h1>
-              <p className="text-[10px] sm:text-xs text-gray-600 leading-tight">
+              <p className="text-[10px] sm:text-xs text-black leading-tight">
                 Idukki Traditional Producers
               </p>
             </div>
-          </ScrollLink>
+          </a>
 
           {/* 💻 Desktop Menu */}
           <ul className="hidden md:flex items-center space-x-8 text-gray-800 font-medium">
-            {navItems.map((item) => (
-              <li key={item}>
-                <ScrollLink
-                  to={item.toLowerCase()}
+            {navItems.map((item,idx) => (
+              <li key={idx}>
+                <a 
+                  href={item.link}
                   smooth={true}
                   duration={500}
                   offset={-80} // adjust for navbar height
                   className="cursor-pointer hover:text-lime-600 hover:underline underline-offset-4 transition duration-200"
                 >
-                  {item}
-                </ScrollLink>
+                  {item.label}
+                </a>
               </li>
             ))}
           </ul>
@@ -73,19 +81,17 @@ export default function Navbar() {
           isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >
-        <ul className="flex flex-col items-center bg-white py-3 space-y-3 text-gray-700 font-medium border-t border-gray-200 shadow-md">
-          {navItems.map((item) => (
-            <li key={item}>
-              <ScrollLink
-                to={item.toLowerCase()}
-                smooth={true}
-                duration={100}
-                offset={-5}
-                onClick={() => setIsOpen(false)} // closes menu on click
-                className="block px-3 py-2 cursor-pointer hover:text-green-700 hover:underline underline-offset-4"
-              >
-                {item}
-              </ScrollLink>
+        <ul className="flex flex-col items-center bg-yellow-400 py-3 space-y-3 text-black font-medium border-t border-gray-200 shadow-md">
+          {navItems.map((item,idx) => (
+            <li key={idx}>
+<a 
+  href={item.link}
+
+  className="block px-3 py-2 cursor-pointer hover:text-green-700 hover:underline underline-offset-4"
+>
+  {item.label}
+</a>
+
             </li>
           ))}
         </ul>

@@ -35,8 +35,8 @@ export default function FeatureProduct() {
     <div>
       {/* Featured Products Section */}
       <section id="products" className="mt-10 px-4 sm:px-6 md:px-10 lg:px-20">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold py-3 text-center">
-          Featured Products
+        <h1 className="text-2xl sm:text-3xl lg:text-5xl font-semibold py-3 text-center">
+          FEATURED PRODUCTS
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mt-6">
@@ -51,12 +51,12 @@ export default function FeatureProduct() {
                 className="w-full h-40 object-cover rounded"
               />
               <h3 className="mt-3 font-semibold text-lg">{p.name}</h3>
-              <p className="text-sm text-gray-600">{p.summary}</p>
+              <p className="text-sm text-black">{p.summary}</p>
               <div className="mt-3 flex items-center justify-between">
-                <div className="text-sm text-gray-800">
+                <div className="text-sm text-black-800">
                   Grades: {p.grades.join(", ")}
                 </div>
-                <button className="px-3 py-1 bg-green-700 text-white rounded text-sm hover:bg-green-800">
+                <button className="px-3 py-1 bg-lime-600 text-white rounded text-sm hover:bg-green-800">
                   Enquire
                 </button>
               </div>

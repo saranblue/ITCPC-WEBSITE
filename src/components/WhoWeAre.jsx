@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 export default function WhoWeAre() {
   return (
-    <section id="about" className="relative overflow-hidden bg-gradient-to-blue from-white to-green-50 py-20 px-6 md:px-12 lg:px-20">
+    <section id="about" className="relative overflow-hidden bg-lime-50 py-20 px-6 md:px-12 lg:px-20">
         {/* Subheading */}
           <h1 className="text-black text-5xl  font-semibold uppercase tracking-widest mb-15 text-center">
              Who We Are
@@ -42,13 +42,13 @@ export default function WhoWeAre() {
 
 
           {/* Heading */}
-          <h2 className="text-3xl md:text-5xl font-extrabold text-green-700 mb-2 mt-5 leading-tight">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-lime-600 mb-2 mt-5 leading-tight">
             Empowering Farmers, <br className="hidden md:block" /> 
             Elevating Traditions
           </h2>
 
           {/* Paragraph */}
-          <p className="text-gray-600 text-sm leading-relaxed mb-10 pt-7">
+          <p className="text-black text-sm leading-relaxed mb-10 pt-7">
             ITCPC (Idukki District Traditional Producer Company Ltd)
             is a farmer-owned producer company dedicated to strengthening the
             traditional cardamom farming and trading ecosystem in Idukki.
@@ -63,7 +63,7 @@ export default function WhoWeAre() {
           <div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}>
             <Link
               to="/about"
-              className="inline-block px-8 py-3 bg-green-700 text-white font-semibold rounded  shadow-lg hover:bg-green-800 transition-all duration-300"
+              className="inline-block px-8 py-3 bg-lime-600 text-white font-semibold rounded  shadow-lg hover:bg-green-800 transition-all duration-300"
             >
               Discover More
             </Link>

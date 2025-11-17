@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       {/* Header Section with Background Image */}
       <section id="home"
-        className="relative w-full bg-green-100 bg-cover bg-center 
+        className="relative w-full bg-lime-50 bg-cover bg-center 
                    flex items-center justify-start 
                    h-[300px] sm:h-[400px] md:h-[500px] lg:h-[565px]"
         style={{

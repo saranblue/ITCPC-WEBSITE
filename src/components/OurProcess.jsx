@@ -75,7 +75,7 @@ export default function OurProcess() {
 
         {/* LEFT TEXT */}
         <div className="text-left lg:sticky lg:top-60">
-          <h3 className="text-green-600 uppercase tracking-wide font-semibold text-sm">
+          <h3 className="text-lime-600 uppercase tracking-wide font-semibold text-sm">
             Our Process
           </h3>
 
@@ -83,7 +83,7 @@ export default function OurProcess() {
             How We Work
           </h2>
 
-          <p className="text-gray-600 max-w-xl mt-4 text-sm sm:text-base">
+          <p className="text-black max-w-xl mt-4 text-sm sm:text-base">
             Our approach combines traditional expertise with cutting-edge technology.
             From farmer registration to online bidding and transparent payments —
             every step is managed digitally to ensure fairness, speed, and accountability.
