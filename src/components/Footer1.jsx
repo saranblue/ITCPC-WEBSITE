@@ -33,7 +33,7 @@ export default function Footer(){
     <div>
       <h3 className="text-black font-semibold text-lg mb-3">Our Products</h3>
       <ul className="space-y-2 text-sm">
-        <li><a href="/products/cardamom" className="hover:text-white">Cardamom</a></li>
+        <li className="hover:text-white">Cardamom</li>
 
       </ul>
     </div>
@@ -42,8 +42,8 @@ export default function Footer(){
     <div>
       <h3 className="text-black font-semibold text-lg mb-3">Community Impact</h3>
       <ul className="space-y-2 text-sm">
-        <li><a href="/sustainability" className="hover:text-white">Sustainability</a></li>
-        <li><a href="/farmers" className="hover:text-white">Farmer Empowerment</a></li>
+        <li className="hover:text-white">Sustainability</li>
+        <li  className="hover:text-white">Farmer Empowerment</li>
       </ul>
     </div>
 
